@@ -33,6 +33,15 @@
     <button id="helloBtn">按我一下</button>
     <p id="message" aria-live="polite"></p>
 
+    <section class="timer" aria-labelledby="timerTitle">
+      <p class="timer-label" id="timerTitle">簡單計時器</p>
+      <div class="timer-display" id="timerDisplay" aria-live="off">00:00.0</div>
+      <div class="timer-actions">
+        <button id="startPauseBtn" type="button">開始</button>
+        <button id="resetBtn" type="button" class="secondary">重設</button>
+      </div>
+    </section>
+
     <footer>branch → commit → PR → merge → Pages</footer>
   </main>
 
